@@ -24,24 +24,24 @@ th, td {
   </tr>
   <?php
 $customerlist = array(
-    "1" => array("ten" => "Mai Văn Hoàn",
-                 "ngaysinh" => "1983-08-20",
-                 "diachi" => "Hà Nội",
+    "1" => array("ten" => "Hoàng Văn Huấn",
+                 "ngaysinh" => "1997-08-20",
+                 "diachi" => "Huế",
                  "anh" => "images/img1.jpg"),
-    "2" => array("ten" => "Nguyễn Văn Nam",
-                 "ngaysinh" => "1983-08-20",
-                 "diachi" => "Bắc Giang",
+    "2" => array("ten" => "Nguyễn Văn Khánh",
+                 "ngaysinh" => "1993-08-20",
+                 "diachi" => "Bắc Cạn",
                  "anh" => "images/img2.jpg"),
-    "3" => array("ten" => "Nguyễn Thái Hòa",
-                 "ngaysinh" => "1983-08-21",
-                 "diachi" => "Nam Định",
+    "3" => array("ten" => "Nguyễn Thái Hoàng",
+                 "ngaysinh" => "1992-08-21",
+                 "diachi" => "Bình Định",
                  "anh" => "images/img3.jpg"),
-    "4" => array("ten" => "Trần Đăng Khoa",
-                  "ngaysinh" => "1983-08-22",
+    "4" => array("ten" => "Trần Đăng Kha",
+                  "ngaysinh" => "1993-08-22",
                   "diachi" => "Hà Tây",
                   "anh" => "images/img4.jpg"),
-    "5" => array("ten" => "Nguyễn Đình Thi",
-                  "ngaysinh" => "1983-08-17",
+    "5" => array("ten" => "Nguyễn Đình Thiên",
+                  "ngaysinh" => "199-08-17",
                   "diachi" => "Hà Nội",
                   "anh" => "images/img5.jpg")
    );
@@ -53,7 +53,7 @@ $customerlist = array(
       echo "<td>".$values['ten']."</td>";
       echo "<td>".$values['ngaysinh']."</td>";
       echo "<td>".$values['diachi']."</td>";
-      echo "<td><image src ='".$values['anh']."' width = '60px' height ='60px'/></td>";
+      echo "<td><image src ='".$values['anh']."' width = '100px' height ='100px'/></td>";
       echo "</tr>";
     }
 ?>
