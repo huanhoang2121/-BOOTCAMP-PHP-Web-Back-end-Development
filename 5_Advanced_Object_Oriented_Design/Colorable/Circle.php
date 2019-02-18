@@ -1,6 +1,5 @@
 <?php
 include_once ('Shape.php');
-include_once ('Resizeable.php');
 class Circle extends Shape
 {
     public $radius;
@@ -14,8 +13,5 @@ class Circle extends Shape
     }
     public function calculatePerimeter(){
         return pi() * $this->radius * 2;
-    }
-    public function resize($percent){
-        return (pi() * pow($this->radius, 2)) * $percent;
     }
 }

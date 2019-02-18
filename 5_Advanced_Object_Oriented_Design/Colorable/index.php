@@ -5,18 +5,13 @@ include_once ('Rectangle.php');
 include_once ('Square.php');
 $circle = new Circle('Circle 01', 3);
 echo 'Circle area: ' . $circle->calculateArea() . '<br />';
-echo 'Circle perimeter: ' . $circle->calculatePerimeter() . '<br /><br />';
+echo 'Circle perimeter: ' . $circle->calculatePerimeter() . '<br />';
 $cylinder = new Cylinder('Cylinder 01', 3 , 4);
 echo 'Cylinder area: ' . $cylinder->calculateArea() . '<br />';
 echo 'Cylinder perimeter: ' . $cylinder->calculatePerimeter() . '<br />';
-echo 'Cylinder resizeable: ' . $cylinder->resize(3) . '<br /><br />';
-
 $rectangle = new Rectangle('Rectangle 01', 3 , 4);
 echo 'Rectangle area: ' . $rectangle->calculateArea() . '<br />';
 echo 'Rectangle perimeter: ' . $rectangle->calculatePerimeter() . '<br />';
-echo 'Rectangle resizeable : ' . $rectangle->resize(2) . '<br /><br />';
-
 $square = new Square('Square 01', 4 , 4, 4);
 echo 'Rectangle area: ' . $square->calculateArea() . '<br />';
 echo 'Rectangle perimeter: ' . $square->calculatePerimeter() . '<br />';
-echo 'Rectangle resizeable: ' . $square->resize(4) . '<br />';
