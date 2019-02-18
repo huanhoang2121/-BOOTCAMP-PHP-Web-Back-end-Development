@@ -2,8 +2,8 @@
 include_once ('Shape.php');
 class Rectangle extends Shape
 {
-    public $width;
-    public $height;
+    private $width;
+    private $height;
     public function __construct($name, $width, $height)
     {
         parent::__construct($name);

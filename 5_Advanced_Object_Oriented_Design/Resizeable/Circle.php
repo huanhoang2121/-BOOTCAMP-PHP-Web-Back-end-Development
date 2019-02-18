@@ -1,9 +1,9 @@
 <?php
 include_once ('Shape.php');
 include_once ('Resizeable.php');
-class Circle extends Shape
+class Circle extends Shape implements Resizeable 
 {
-    public $radius;
+    private $radius;
     public function __construct($name, $radius)
     {
         parent::__construct($name);

@@ -1,7 +1,7 @@
 <?php
 class Shape
 {
-    public $name;
+    private $name;
     public function __construct($name)
     {
         $this->name = $name;

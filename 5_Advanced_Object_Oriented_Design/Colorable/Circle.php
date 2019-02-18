@@ -2,7 +2,7 @@
 include_once ('Shape.php');
 class Circle extends Shape
 {
-    public $radius;
+    private $radius;
     public function __construct($name, $radius)
     {
         parent::__construct($name);
