@@ -13,8 +13,5 @@
 </select></br>
 <input type='text' name='value2'></br>
 <input type="submit" name="submit" value='Calculate Now'></form>
-
-
-
 </body>
 </html>
