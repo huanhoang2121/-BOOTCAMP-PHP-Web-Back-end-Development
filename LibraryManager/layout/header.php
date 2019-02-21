@@ -1,8 +1,7 @@
 <div class="scrollmenu">
 	<a href="#">Home</a>
-	<a href="#">Book</a>
-	<a href="#">Reader</a>
-	<a href="#">Borrow Books</a>
-	<a href="#">Author</a>
-	<a href="./displaycategory.php">Categories</a>
+	<a href="../book/displaybook.php">Book</a>
+	<a href="../student/displaystudent.php">Reader</a>
+	<a href="../borroworder/displayborroworder.php">Borrow Books</a>
+	<a href="../category/displaycategory.php">Categories</a>
 </div>
