@@ -30,7 +30,7 @@
 		    </tr>
 		</thead>
 		<?php
-			$data = $db->getArray('students');
+			$data = $db->getArray('student');
 			$id = 0;
 			foreach ($data as $value) {
 			$id += 1;

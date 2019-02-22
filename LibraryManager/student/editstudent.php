@@ -17,7 +17,7 @@
 		require ('../database/DB.php');
 		$db = new Database();
 		$id = intval($_GET['id']);
-		$value = $db->getRowArray('students', $id);
+		$value = $db->getRowArray('student', $id);
 		if($value){
 	?> 
 	<form action="" method="post">
@@ -71,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     'email'    => $email,
     'image'    => $image,
 	];
-	if($db->update('students', $data, $id)){
+	if($db->update('student', $data, $id)){
 	    echo 'Thêm thành công';
 	    header('Location: ./displaystudent.php');
 	}else {

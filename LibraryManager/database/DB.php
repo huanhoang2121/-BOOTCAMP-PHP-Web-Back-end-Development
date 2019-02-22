@@ -4,7 +4,7 @@ class Database
     private $host = 'localhost';
     private $username = 'root';
     private $password = '';
-    private $databaseName = 'library';
+    private $databaseName = 'librarymanager';
     private $charset = 'utf8';
     private $conn;
     public function __construct()

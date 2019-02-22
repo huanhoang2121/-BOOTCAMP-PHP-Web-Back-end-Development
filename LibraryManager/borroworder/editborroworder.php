@@ -26,7 +26,7 @@
 				<td><b>Student Name:</b></td>
 				<td>
 					<select name="student">
-					<?php $student = $db->getArray('students');
+					<?php $student = $db->getArray('student');
 					foreach ($student as $value1) { 
 						?>
 						<option value="<?php echo  $value1['id']; ?>"

@@ -40,7 +40,6 @@
 		    	<tr>
 					<th><?php echo $id; ?></th>
 			      	<td><?php echo $value['bookName']; ?></td>
-
 			      	<td>
 			      		<?php 
 						$category = $db->getArray('category');
@@ -51,7 +50,6 @@
 						} 
 						?>	
 			      	</td>
-
 			      	<td align="center"><img src="<?php echo $value['image']; ?>" width="60px" height="60px"></td>
 			      	<td><?php echo $value['price']; ?></td>
 			      	<td align="center"><?php echo $value['quanlity']; ?></td>

@@ -39,7 +39,7 @@
 					<th><?php echo $id; ?></th>
 			      	<td>
 			      		<?php 
-						$student = $db->getArray('students');
+						$student = $db->getArray('student');
 						foreach ($student as $value2) { 
 							if ($value['studentNumber'] === $value2['id']) {
 								echo $value2['studentName'];

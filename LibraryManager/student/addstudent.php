@@ -61,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     'image'    => $image,
 	];
 
-	if($db->insert('students', $data)){
+	if($db->insert('student', $data)){
 	    echo 'Thêm thành công';
 	    header('Location: ./displaystudent.php');
 	}else {
