@@ -35,6 +35,23 @@ class ProductController
     $products = $this->productDB->getAll();
     include 'view/list.php';
   }
+
+  public function detail(){
+    if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+      $id = $_GET['id'];
+      $product = $this->productDB->get($id);
+      include 'view/detail.php';
+    }
+  }
+
+  public function search1(){
+    if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+      $search = $_GET['search'];
+      $products = $this->productDB->search2($search);
+      include 'view/search.php';
+    }
+  }
+
   public function delete(){
     if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         $id = $_GET['id'];

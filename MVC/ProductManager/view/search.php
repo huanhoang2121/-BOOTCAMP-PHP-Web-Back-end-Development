@@ -1,5 +1,4 @@
 <h2>Danh sách sản phẩm</h2>
-<a href="./index.php?page=add">Thêm mới</a>
 <table class="table">
   <thead>
   <tr>

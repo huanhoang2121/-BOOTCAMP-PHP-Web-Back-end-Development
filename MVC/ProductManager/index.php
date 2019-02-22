@@ -17,11 +17,16 @@ use \Controller\ProductController;
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-
 <div class="container">
   <div class="navbar navbar-default">
       <a class="navbar-brand" href="index.php">Product Management</a>
   </div>
+  <div align="center">
+    <form action="./index.php?page=search" method="get">
+        <input type="text" name="search" placeholder="Nhập từ khóa" />
+        <input type="submit" value="Tìm kiếm" />
+    </form>
+</div>
   <?php
   $controller = new ProductController();
   $page = isset($_REQUEST['page'])? $_REQUEST['page'] : NULL;
@@ -32,8 +37,14 @@ use \Controller\ProductController;
     case 'delete':
         $controller->delete();
         break;
+    case 'search':
+        $controller->search1();
+        break;
     case 'edit':
         $controller->update();
+        break;
+    case 'detail':
+        $controller->detail();
         break;
     default:
         $controller->index();
