@@ -27,9 +27,7 @@ class PostController
             $post = new Post($_POST['title'], $_POST['teaser'], $_POST['content'], $_POST['created']);
             $this->postDB->create($post);
             $message = 'Post created';
-            //echo "add";
-            include 'view/add.php';
-
+            header('Location: index.php');
         }
     }
 

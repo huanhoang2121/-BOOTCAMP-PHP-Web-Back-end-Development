@@ -26,7 +26,6 @@ use \Controller\PostController;
             switch ($page){
                 case 'add':
                     $controller->add();
-                    echo "a";
                     break;
                 case 'view':
                     $controller->view();
