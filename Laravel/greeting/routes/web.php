@@ -39,3 +39,16 @@ Route::post('/login', function (Illuminate\Http\Request $request) {
 
     return view('login_error');
 });
+
+
+Route::get('/product_discount', function () {
+    return view('product_discount');
+});
+Route::post('/product_discount', function (Illuminate\Http\Request $request) {
+    $productDescription = $request->input('description');
+    $productPrice = $request->input('price');
+    $discountPercent = $request->input('discount_percent') ;
+    $discountAmount = $productPrice * $discountPercent * 0.1 / 100;
+    $discountPrice = $productPrice - $discountAmount;
+    return view('display_discount', compact(['discountPrice', 'discountAmount', 'productDescription', 'productPrice', 'discountPercent']));
+});
