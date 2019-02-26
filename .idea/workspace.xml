@@ -2,98 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1de850a4-4fd1-44ef-8808-e4a11dfd3940" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/public/svg/403.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/public/svg/404.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/public/svg/500.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/public/svg/503.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/resources/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/greeting/webpack.mix.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -111,8 +19,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -143,7 +52,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -172,17 +81,34 @@
       <workItem from="1550408939755" duration="973000" />
       <workItem from="1551059951002" duration="36000" />
       <workItem from="1551088270088" duration="2355000" />
-      <workItem from="1551146088119" duration="2270000" />
+      <workItem from="1551146088119" duration="2880000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1551148688734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551148688734</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5634000" />
+    <option name="totallyTimeSpent" value="6244000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41028446" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.41028446" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -191,10 +117,10 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32932165" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -208,6 +134,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../codegym/1_Tong_quan_ung_dung_Web_PHP/login/index.php" />
