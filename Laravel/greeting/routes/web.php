@@ -57,17 +57,18 @@ Route::get('/translate', function () {
     return view('translate');
 });
 Route::post('/translate', function (Illuminate\Http\Request $request) {
-    $english = $request->input('english');
-    $arrenglish = ["Hello", "Ok", "Bye"];
-    $arrvietnam = ["Xin chào", "Vâng", "Tạm biệt"];
-    for($i = 0; $i < count($arrenglish); $i++){
-        if($english === $arrenglish[$i]){
-            $vietnam = $arrvietnam[$i];
-            return view('display_translate', compact(['english'],['vietnam']));
-        }else{
-            $vietnam = "Chưa có từ này";
-            return view('display_translate', compact(['english'],['vietnam']));
+    $english = $request->english;
+    $arrtranslate = array(
+        "Hello" => "Xin chào",
+        "Ok" => "Vâng",
+        "Bye" => "Tạm biệt"
+    );
+
+    foreach ($arrtranslate as $key => $value) {
+        if($english === $key){
+            $vietnam = $value;
         }
     }
+    return view('display_translate', compact(['english'],['vietnam']));
 
 });

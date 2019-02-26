@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1de850a4-4fd1-44ef-8808-e4a11dfd3940" name="Default Changelist" comment="add">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Laravel/greeting/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/greeting/routes/web.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Laravel/greeting/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+            <state relative-caret-position="739">
+              <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -135,7 +134,7 @@
       <workItem from="1551088270088" duration="2355000" />
       <workItem from="1551146088119" duration="2880000" />
       <workItem from="1551149565650" duration="7708000" />
-      <workItem from="1551163099065" duration="119000" />
+      <workItem from="1551163099065" duration="1699000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1551148688734</created>
@@ -148,7 +147,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14071000" />
+    <option name="totallyTimeSpent" value="15651000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Laravel/greeting/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+        <state relative-caret-position="739">
+          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
         </state>
       </provider>
     </entry>
