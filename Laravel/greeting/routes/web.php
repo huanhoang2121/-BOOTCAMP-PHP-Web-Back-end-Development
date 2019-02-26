@@ -64,6 +64,9 @@ Route::post('/translate', function (Illuminate\Http\Request $request) {
         if($english === $arrenglish[$i]){
             $vietnam = $arrvietnam[$i];
             return view('display_translate', compact(['english'],['vietnam']));
+        }else{
+            $vietnam = "Chưa có từ này";
+            return view('display_translate', compact(['english'],['vietnam']));
         }
     }
 
