@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1de850a4-4fd1-44ef-8808-e4a11dfd3940" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1de850a4-4fd1-44ef-8808-e4a11dfd3940" name="Default Changelist" comment="add">
+      <change beforePath="$PROJECT_DIR$/Laravel/greeting/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/greeting/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,14 +14,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Laravel/greeting/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Laravel/greeting/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Laravel/greeting/.env" />
+        <option value="$PROJECT_DIR$/Laravel/greeting/resources/views/welcome.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -41,6 +67,27 @@
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="greeting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="greeting" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="greeting" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -82,6 +129,7 @@
       <workItem from="1551059951002" duration="36000" />
       <workItem from="1551088270088" duration="2355000" />
       <workItem from="1551146088119" duration="2880000" />
+      <workItem from="1551149565650" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1551148688734</created>
@@ -94,7 +142,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6244000" />
+    <option name="totallyTimeSpent" value="6917000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -107,8 +155,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.41028446" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4201313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -119,9 +168,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32932165" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32932165" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989059" weight="0.32932165" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32932165" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010941" side_tool="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -161,101 +210,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/routes/console.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/routes/channels.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/database/factories/UserFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/app/Http/Controllers/Auth/ResetPasswordController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/app/Http/Controllers/Auth/VerificationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/app/Http/Controllers/Controller.php">
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/routes/console.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/routes/channels.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/routes/api.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/database/factories/UserFactory.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/database/migrations/2014_10_12_000000_create_users_table.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/database/seeds/DatabaseSeeder.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/routes/web.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/public/index.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/app/Http/Controllers/Auth/ResetPasswordController.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/app/Http/Controllers/Auth/VerificationController.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/app/Http/Controllers/Controller.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/app/Console/Kernel.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/public/web.config" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/bootstrap/app.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/config/app.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/app/Providers/AppServiceProvider.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/resources/views/welcome.blade.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/app/Http/Controllers/Auth/ForgotPasswordController.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/blog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/SendsPasswordResetEmails.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/greeting/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <folding>
-            <element signature="e#40#85#0#PHP" expanded="true" />
-          </folding>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/app/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/public/web.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/bootstrap/app.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/config/app.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/resources/views/welcome.blade.php">
+    <entry file="file://$PROJECT_DIR$/Laravel/greeting/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/app/Http/Controllers/Auth/ForgotPasswordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/blog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/SendsPasswordResetEmails.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#46#74#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
         </state>
       </provider>
     </entry>
