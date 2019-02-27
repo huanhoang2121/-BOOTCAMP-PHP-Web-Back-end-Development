@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::prefix('customer')->group(function () {
 
     Route::get('/', ['as'=>'index','uses'=>'CustomerController@index']);
