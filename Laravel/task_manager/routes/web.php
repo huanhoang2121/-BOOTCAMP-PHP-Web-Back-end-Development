@@ -21,7 +21,7 @@ Route::prefix('customer')->group(function () {
 
     Route::get('/create', 'CustomerController@create');
 
-    Route::post('/save', ['as'=>'save','uses'=>'CustomerController@save']);
+    Route::post('/save', 'CustomerController@save');
 
     Route::get('/edit/{id}', 'CustomerController@edit');
 
