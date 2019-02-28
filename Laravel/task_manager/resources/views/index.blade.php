@@ -18,6 +18,10 @@
         <div class="title m-b-md">
             Tasks List
         </div>
+        <div class="links">
+            <a href="{{ route('welcome') }}">Home</a>
+            <a href="{{ route('tasks.create') }}">Add new task</a>
+        </div>
         @if(!isset($tasks))
             <h5 class="text-primary">Dữ liệu không tồn tại!</h5>
         @else

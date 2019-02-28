@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Route::prefix('customer')->group(function () {
 
@@ -30,7 +30,12 @@ Route::prefix('customer')->group(function () {
     Route::get('/detail/{id}', 'CustomerController@detail');
 
 });
+Route::prefix('tasks')->group(function () {
 
-Route::get('/tasks', 'TaskController@index')->name('tasks.index');
-Route::get('/tasks/create', 'TaskController@create')->name('tasks.create');
-Route::post('/tasks', 'TaskController@store')->name('tasks.store');
+    Route::get('/', 'TaskController@index')->name('tasks.index');
+
+    Route::get('//create', 'TaskController@create')->name('tasks.create');
+
+    Route::post('/', 'TaskController@store')->name('tasks.store');
+
+});
