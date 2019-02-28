@@ -11,10 +11,28 @@ class CalculatorController extends Controller
         $result = null;
         return view('index', compact('result'));
     }
-    public function add(Request $rq){
+    public function calculate(Request $rq){
         $soA = $rq->soA;
         $soB = $rq->soB;
-        $result= $soA + $soB ;
+        $pheptoan = $rq->pheptoan;
+        switch ($pheptoan){
+            case 'Addition(+)':
+                $result= $soA + $soB ;
+                break;
+            case 'Subtraction(-)':
+                $result= $soA - $soB ;
+                break;
+            case 'Multiplication(*)':
+                $result= $soA * $soB ;
+                break;
+            case 'Division(/)':
+                if ($soB == 0){
+                    $result= "Division by zero!";
+                }
+                else{
+                    $result= $soA / $soB ;
+                }
+        }
         return view('index', compact('result'));
     }
 }

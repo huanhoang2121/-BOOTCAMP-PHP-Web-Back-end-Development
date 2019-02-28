@@ -67,7 +67,7 @@
             Calculator
         </div>
         <div class="links">
-            <form method="POST" action="add">
+            <form method="POST" action="calculate">
                 @csrf
                 <table>
                     <tr>
@@ -80,10 +80,10 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><input type="submit" value="Addition(+)"></td>
-                        <td><input type="submit" value="Subtraction(-)"></td>
-                        <td><input type="submit" value="Multiplication(*)"></td>
-                        <td><input type="submit" value="Division(/)"></td>
+                        <td><input name="pheptoan" type="submit" value="Addition(+)"></td>
+                        <td><input name="pheptoan" type="submit" value="Subtraction(-)"></td>
+                        <td><input name="pheptoan" type="submit" value="Multiplication(*)"></td>
+                        <td><input name="pheptoan" type="submit" value="Division(/)"></td>
 
                     </tr>
                 </table>
