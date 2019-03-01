@@ -12,7 +12,7 @@ class CustomerTableSeeder extends Seeder
     public function run()
     {
         $dataArray = [];
-        for ($i = 0; $i < 20; $i++) {
+        for ($i = 0; $i < 10; $i++) {
             array_push($dataArray, [
                 'name' => str_random(10),
                 'dob' => date("Y-m-d", mt_rand(1, time())),
