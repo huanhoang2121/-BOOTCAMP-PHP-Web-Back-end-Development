@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1de850a4-4fd1-44ef-8808-e4a11dfd3940" name="Default Changelist" comment="add">
-      <change beforePath="$PROJECT_DIR$/Laravel/task_manager/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/task_manager/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laravel/task_manager/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/task_manager/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laravel/task_manager/app/Http/Controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/task_manager/app/Http/Controllers/TaskController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laravel/task_manager/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laravel/task_manager/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laravel/task_manager/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/task_manager/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,43 +20,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Laravel/task_manager/app/Http/Controllers/TaskController.php">
+        <entry file="file://$PROJECT_DIR$/Laravel/manage-customer/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-              <folding>
-                <element signature="e#40#53#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Laravel/manage-customer/database/migrations/2019_03_01_020756_create_customer_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Laravel/manage-customer/database/seeds/CustomerTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Laravel/task_manager/routes/web.php">
+        <entry file="file://$PROJECT_DIR$/Laravel/manage-customer/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Laravel/task_manager/resources/views/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="38" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Laravel/task_manager/resources/views/welcome.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="54" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="54" />
+            <state relative-caret-position="221">
+              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -73,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Laravel/greeting/.env" />
         <option value="$PROJECT_DIR$/Laravel/greeting/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/Laravel/greeting/resources/views/login.blade.php" />
         <option value="$PROJECT_DIR$/Laravel/greeting/resources/views/welcome_admin.blade.php" />
@@ -114,14 +110,23 @@
         <option value="$PROJECT_DIR$/Laravel/task_manager/public/css/mystyle.css" />
         <option value="$PROJECT_DIR$/Laravel/task_manager/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/Laravel/task_manager/resources/views/add.blade.php" />
-        <option value="$PROJECT_DIR$/Laravel/task_manager/app/Http/Controllers/TaskController.php" />
         <option value="$PROJECT_DIR$/Laravel/task_manager/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/Laravel/task_manager/routes/web.php" />
+        <option value="$PROJECT_DIR$/Laravel/task_manager/app/Http/Controllers/TaskController.php" />
+        <option value="$PROJECT_DIR$/Laravel/task_manager/database/migrations/2019_02_28_081340_add_flights_table.php" />
+        <option value="$PROJECT_DIR$/Laravel/task_manager/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/Laravel/task_manager/database/seeds/FlightsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/Laravel/task_manager/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/Laravel/manage-customer/.env" />
+        <option value="$PROJECT_DIR$/Laravel/manage-customer/database/migrations/2019_03_01_020756_create_customer_table.php" />
+        <option value="$PROJECT_DIR$/Laravel/manage-customer/database/seeds/CustomerTableSeeder.php" />
+        <option value="$PROJECT_DIR$/Laravel/manage-customer/database/seeds/DatabaseSeeder.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -150,77 +155,37 @@
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manage-customer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manage-customer" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="manage-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="manage-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
-              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
-              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
-              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
-              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
-              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="manage-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="seeds" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,7 +241,8 @@
       <workItem from="1551163099065" duration="12199000" />
       <workItem from="1551229693305" duration="7801000" />
       <workItem from="1551249994923" duration="10806000" />
-      <workItem from="1551316781316" duration="11378000" />
+      <workItem from="1551316781316" duration="14676000" />
+      <workItem from="1551402626676" duration="998000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1551148688734</created>
@@ -289,7 +255,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56136000" />
+    <option name="totallyTimeSpent" value="60432000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,10 +267,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2822757" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1391258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -336,64 +302,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Laravel/route-demo/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/route-demo/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/route-demo/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/route-demo/resources/views/user.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/task_manager/bootstrap/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/task_manager/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/greeting/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/greeting/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <element signature="e#7#45#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Laravel/task_manager/app/Http/Middleware/Authenticate.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -492,13 +400,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/calculator/resources/views/result.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="69" column="31" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/calculator/resources/views/result.blade.php" />
     <entry file="file://$PROJECT_DIR$/Laravel/email-validation--prefer-dist/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -613,9 +515,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/task_manager/resources/css/app.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/task_manager/resources/css/app.css" />
     <entry file="file://$PROJECT_DIR$/Laravel/task_manager/storage/app/public/images/.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -628,18 +528,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Laravel/task_manager/app/Http/Controllers/TaskController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state relative-caret-position="186">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="e#40#53#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/task_manager/resources/views/welcome.blade.php">
+    <entry file="file://$PROJECT_DIR$/Laravel/task_manager/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="54" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="54" />
+        <state relative-caret-position="102">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -653,10 +553,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/task_manager/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/Laravel/task_manager/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="340">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/task_manager/database/migrations/2014_10_12_000000_create_users_table.php" />
+    <entry file="file://$PROJECT_DIR$/Laravel/task_manager/database/migrations/2019_02_28_081340_add_flights_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="e#7#45#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/task_manager/database/seeds/FlightsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/task_manager/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/manage-customer/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/manage-customer/database/migrations/2019_03_01_020756_create_customer_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/manage-customer/database/seeds/CustomerTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/manage-customer/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
         </state>
       </provider>
     </entry>
