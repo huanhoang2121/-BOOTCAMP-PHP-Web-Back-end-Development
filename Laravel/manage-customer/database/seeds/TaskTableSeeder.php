@@ -16,7 +16,7 @@ class TaskTableSeeder extends Seeder
             array_push($dataArray, [
                 'title' => str_random(10),
                 'image' => str_random(10),
-                'due_date' => date("Y-m-d", mt_rand(1, time())),
+                'add_date' => date("Y-m-d", mt_rand(1, time())),
                 'content' => str_random(100)
             ]);
         }

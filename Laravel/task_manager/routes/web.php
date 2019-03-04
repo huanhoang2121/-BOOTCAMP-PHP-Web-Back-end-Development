@@ -30,6 +30,8 @@ Route::prefix('customer')->group(function () {
     Route::get('/detail/{id}', 'CustomerController@detail');
 
 });
+
+
 Route::prefix('tasks')->group(function () {
 
     Route::get('/', 'TaskController@index')->name('tasks.index');
