@@ -21,6 +21,7 @@ Route::group(['prefix' => 'customers'], function () {
     Route::post('/create','CustomerController@store')->name('customers.store');
     Route::get('/{id}/edit','CustomerController@edit')->name('customers.edit');
     Route::post('/{id}/edit','CustomerController@update')->name('customers.update');
+    Route::get('/filter','CustomerController@filterByCity')->name('customers.filterByCity');
     Route::get('/{id}/destroy','CustomerController@destroy')->name('customers.destroy');
 });
 
@@ -30,5 +31,15 @@ Route::group(['prefix' => 'tasks'], function () {
     Route::post('/create','TaskController@store')->name('tasks.store');
     Route::get('/{id}/edit','TaskController@edit')->name('tasks.edit');
     Route::post('/{id}/edit','TaskController@update')->name('tasks.update');
-    Route::get('/{id}/destroy','TaskController@destroy')->name('tasks.destroy');
+    Route::get('/{id}/destroy','TaskController@destroy')->name('tasks.destroy');    Route::get('/filter','CityController@filterByCity')->name('cities.filterByCity');
+
+});
+
+Route::group(['prefix' => 'cities'], function () {
+    Route::get('/','CityController@index')->name('cities.index');
+    Route::get('/create','CityController@create')->name('cities.create');
+    Route::post('/create','CityController@store')->name('cities.store');
+    Route::get('/{id}/edit','CityController@edit')->name('cities.edit');
+    Route::post('/{id}/edit','CityController@update')->name('cities.update');
+    Route::get('/{id}/delete','CityController@destroy')->name('cities.destroy');
 });

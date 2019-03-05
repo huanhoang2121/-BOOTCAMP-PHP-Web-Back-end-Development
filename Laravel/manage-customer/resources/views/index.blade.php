@@ -11,6 +11,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="{{ route('customers.index') }}">Home</a>
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('tasks.index') }}">Task</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('cities.index') }}">City</a>
+        </li>
+    </ul>
+</nav>
 <div class="container">
     @yield('content')
 </div>

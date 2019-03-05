@@ -20,6 +20,6 @@ class TaskTableSeeder extends Seeder
                 'content' => str_random(100)
             ]);
         }
-        DB::table('task')->insert($dataArray);
+        DB::table('tasks')->insert($dataArray);
     }
 }
