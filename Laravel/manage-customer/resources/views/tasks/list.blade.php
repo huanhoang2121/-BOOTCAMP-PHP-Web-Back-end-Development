@@ -35,7 +35,7 @@
                         {{--<td>{{ $task->content }}</td>--}}
                         <td>
                             @if($task->image)
-                                <img src="{{ asset('storage/'.$task->image) }}" alt="" style="width: 200px; height: 200px">
+                                <img src="{{ asset('storage/'.$task->image) }}" alt="" style="width: 100px;">
                             @else
                                 {{'Chưa có ảnh'}}
                             @endif
@@ -47,7 +47,12 @@
                 @endforeach
                 </tbody>
             </table>
+        </div>
+        <div class="col-6">
             <a href="{{ route('tasks.create') }}" class="btn btn-primary">Thêm mới</a>
+        </div>
+        <div class="col-6">
+            <div class="float-right" > {{ $tasks->links() }}</div>
         </div>
     </div>
 @endsection

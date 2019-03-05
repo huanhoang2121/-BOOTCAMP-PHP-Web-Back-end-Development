@@ -27,9 +27,7 @@ class CustomerController extends Controller
         $customer->city_id  = $request->input('city_id');
         $customer->save();
 
-        //dung session de dua ra thong bao
         Session::flash('success', 'Tạo mới khách hàng thành công');
-        //tao moi xong quay ve trang danh sach khach hang
         return redirect()->route('customers.index');
     }
 
@@ -48,9 +46,7 @@ class CustomerController extends Controller
         $customer->city_id  = $request->input('city_id');
         $customer->save();
 
-        //dung session de dua ra thong bao
         Session::flash('success', 'Cập nhật khách hàng thành công');
-        //cap nhat xong quay ve trang danh sach khach hang
         return redirect()->route('customers.index');
     }
 
@@ -58,17 +54,14 @@ class CustomerController extends Controller
         $customer = Customer::findOrFail($id);
         $customer->delete();
 
-        //dung session de dua ra thong bao
         Session::flash('success', 'Xóa khách hàng thành công');
 
-        //xoa xong quay ve trang danh sach khach hang
         return redirect()->route('customers.index');
     }
 
     public function filterByCity(Request $request){
         $idCity = $request->input('city_id');
 
-        //kiem tra city co ton tai khong
         $cityFilter = City::findOrFail($idCity);
 
         //lay ra tat ca customer cua cityFiler

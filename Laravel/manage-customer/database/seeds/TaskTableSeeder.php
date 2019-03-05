@@ -11,15 +11,26 @@ class TaskTableSeeder extends Seeder
      */
     public function run()
     {
-        $dataArray = [];
-        for ($i = 0; $i < 5; $i++) {
-            array_push($dataArray, [
-                'title' => str_random(10),
-                'image' => str_random(10),
-                'add_date' => date("Y-m-d", mt_rand(1, time())),
-                'content' => str_random(100)
-            ]);
-        }
-        DB::table('tasks')->insert($dataArray);
+        $task = new Task();
+        $task->id               = 1;
+        $task->title            = "Công việc 1";
+        $task->content          = "Nội dung công việc 1";
+        $task->image            = "";
+        $task->due_date         = "2018-09-15";
+        $task->save();
+        $task = new Task();
+        $task->id               = 2;
+        $task->title            = "Công việc 2";
+        $task->content          = "Nội dung công việc 2";
+        $task->image            = "";
+        $task->due_date         = "2018-09-16";
+        $task->save();
+        $task = new Task();
+        $task->id               = 3;
+        $task->title            = "Công việc 3";
+        $task->content          = "Nội dung công việc 3";
+        $task->image            = "";
+        $task->due_date         = "2018-09-17";
+        $task->save();
     }
 }

@@ -11,7 +11,7 @@ class TaskController extends Controller
 {
     public function index()
     {
-        $tasks = Task::all();
+        $tasks = Task::paginate(5);
         return view('tasks.list', compact('tasks'));
     }
 
@@ -26,7 +26,6 @@ class TaskController extends Controller
         $task->title = $request->input('title');
         $task->content = $request->input('content');
 
-        //upload file
         if ($request->hasFile('image')) {
             $image = $request->file('image');
             $path = $image->store('images', 'public');
@@ -35,10 +34,8 @@ class TaskController extends Controller
 
         $task->due_date = $request->input('due_date');
         $task->save();
-
-        //dung session de dua ra thong bao
         Session::flash('success', 'Tạo mới thành công');
-        //tao moi xong quay ve trang danh sach task
+
         return redirect()->route('tasks.index');
     }
     public function edit($id)
@@ -53,15 +50,13 @@ class TaskController extends Controller
         $task->title = $request->input('title');
         $task->content = $request->input('content');
 
-        //cap nhat anh
         if ($request->hasFile('image')) {
 
-            //xoa anh cu neu co
             $currentImg = $task->image;
             if ($currentImg) {
                 Storage::delete('/public/' . $currentImg);
             }
-            // cap nhat anh moi
+
             $image = $request->file('image');
             $path = $image->store('images', 'public');
             $task->image = $path;
@@ -70,9 +65,7 @@ class TaskController extends Controller
         $task->due_date = $request->input('due_date');
         $task->save();
 
-        //dung session de dua ra thong bao
         Session::flash('success', 'Cập nhật thành công');
-        //tao moi xong quay ve trang danh sach task
         return redirect()->route('tasks.index');
     }
 
@@ -80,17 +73,13 @@ class TaskController extends Controller
     {
         $task = Task::findOrFail($id);
         $image = $task->image;
-
-        //delete image
         if ($image) {
             Storage::delete('/public/' . $image);
         }
 
         $task->delete();
 
-        //dung session de dua ra thong bao
         Session::flash('success', 'Xóa thành công');
-        //xoa xong quay ve trang danh sach task
         return redirect()->route('tasks.index');
     }
 }
