@@ -1,14 +1,10 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Summernote;
 
 class PostTableSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
     public function run()
     {
         $dataArray = [];
@@ -17,6 +13,7 @@ class PostTableSeeder extends Seeder
                 'title' => str_random(10),
                 'image' => str_random(10),
                 'add_date' => date("Y-m-d", mt_rand(1, time())),
+                'category_id' => random_int(1, 5),
                 'content' => str_random(100)
             ]);
         }

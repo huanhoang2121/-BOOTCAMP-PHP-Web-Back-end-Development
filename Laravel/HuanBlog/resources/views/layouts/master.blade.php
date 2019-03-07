@@ -1,21 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blog - @yield('title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords"
+          content="Style Blog Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"/>
+    <script type="applijewelleryion/x-javascript">
+        addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
 
-    <title>Huấn Blog - @yield('title')</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ URL::to('css/styles.css') }}">
+    </script>
+    <link href="{{ asset('css/bootstrap.css') }}" rel='stylesheet' type='text/css'/>
+    <!-- Custom Theme files -->
+    <link href="{{ asset('css/style.css') }}" rel='stylesheet' type='text/css'/>
+    <script src="{{ asset('js/jquery-1.11.1.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <!-- animation-effect -->
+    <link href="{{ asset('css/animate.min.css') }}" rel="stylesheet">
+    <script src="{{ asset('js/wow.min.js') }}"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <style>
+        .content {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            line-height: 1.4em;
+            max-height: 5.5em;
+        }
+        .title-popular{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            line-height: 1.4em;
+            max-height: 2.8em;
+        }
+        .title {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            line-height: 1.4em;
+            max-height: 2.8em;
+        }
+    </style>
+    <!-- //animation-effect -->
 </head>
 <body>
+<!-- header -->
 @include('partials.header')
-<div class="container">
-    @yield('content')
-</div>
+<!-- header -->
+<!-- content -->
+@yield('content')
+<!-- content -->
+<!-- footer -->
+@include('partials.footer')
+<!-- footer -->
 </body>
 </html>

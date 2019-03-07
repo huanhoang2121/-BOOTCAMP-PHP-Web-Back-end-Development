@@ -17,8 +17,8 @@
                     <textarea class="form-control" rows="3" name="content"  required>{{ $task->content }}</textarea>
                 </div>
                 <div class="form-group">
-                    <label>Ảnh</label>
-                    <input type="file" name="image" class="form-control-file" >
+                    <label for="exampleFormControlFile1">Ảnh</label>
+                    <input type="file" name="image" class="form-control-file" required>
                 </div>
                 <div class="form-group">
                     <label>Ngày hết hạn</label>

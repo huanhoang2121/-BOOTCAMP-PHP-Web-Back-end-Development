@@ -87,6 +87,13 @@
                             <td>{{ $customer->dob }}</td>
                             <td>{{ $customer->email }}</td>
                             <td>{{ $customer->city->name }}</td>
+                            {{--<td>--}}
+                                {{--@foreach($cities as $city)--}}
+                                    {{--@if($customer->city_id === $city->id)--}}
+                                        {{--{{ $city->name}}--}}
+                                    {{--@endif--}}
+                                {{--@endforeach--}}
+                            {{--</td>--}}
                             <td><a href="{{ route('customers.edit', $customer->id) }}">Sửa</a></td>
                             <td><a href="{{ route('customers.destroy', $customer->id) }}" class="text-danger" onclick="return confirm('Bạn chắc chắn muốn xóa?')">Xóa</a></td>
                         </tr>
