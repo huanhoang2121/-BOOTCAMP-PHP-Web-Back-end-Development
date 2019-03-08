@@ -12,5 +12,12 @@
 */
 
 
+Route::get('/', function () {
+    return view('welcome');
+});
+
+
 Route::get('create', 'PostController@create');
 Route::post('store', 'PostController@store')->name('store');
+
+Route::get('custom-validation', 'FormController@checkValidation')->name('form.submit');
