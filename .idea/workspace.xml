@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1de850a4-4fd1-44ef-8808-e4a11dfd3940" name="Default Changelist" comment="add">
-      <change beforePath="$PROJECT_DIR$/Laravel/manage-customer/app/Http/Controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/manage-customer/app/Http/Controllers/CustomerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laravel/task_manager/app/Http/Controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/task_manager/app/Http/Controllers/TaskController.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,13 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Laravel/manage-customer/app/Http/Controllers/CustomerController.php">
+        <entry file="file://$PROJECT_DIR$/Laravel/task_manager/app/Http/Controllers/TaskController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-              <folding>
-                <element signature="e#40#53#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -60,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Laravel/manage-customer/app/Http/Controllers/TaskController.php" />
         <option value="$PROJECT_DIR$/Laravel/manage-customer/database/seeds/TaskTableSeeder.php" />
         <option value="$PROJECT_DIR$/Laravel/manage-customer/resources/views/tasks/edit.blade.php" />
         <option value="$PROJECT_DIR$/Laravel/HuanBlog/config/database.php" />
@@ -111,6 +107,7 @@
         <option value="$PROJECT_DIR$/Laravel/validation/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/Laravel/validation/app/Http/Controllers/FormController.php" />
         <option value="$PROJECT_DIR$/Laravel/manage-customer/app/Http/Controllers/CustomerController.php" />
+        <option value="$PROJECT_DIR$/Laravel/task_manager/app/Http/Controllers/TaskController.php" />
       </list>
     </option>
   </component>
@@ -144,20 +141,20 @@
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
+              <item name="manage-customer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
+              <item name="manage-customer" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
+              <item name="manage-customer" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -165,7 +162,7 @@
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
+              <item name="manage-customer" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
@@ -174,32 +171,31 @@
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
+              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Requests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
-              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
-              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,7 +281,7 @@
       <workItem from="1551834305243" duration="19308000" />
       <workItem from="1551920781114" duration="20992000" />
       <workItem from="1552010822195" duration="382000" />
-      <workItem from="1552011704548" duration="2998000" />
+      <workItem from="1552011704548" duration="3247000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1551148688734</created>
@@ -298,7 +294,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159139000" />
+    <option name="totallyTimeSpent" value="159388000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -345,20 +341,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Laravel/HuanBlog/app/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/HuanBlog/resources/views/admin/categories/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Laravel/HuanBlog/resources/views/admin/categories/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -681,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/validation/app/Http/Controllers/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Laravel/validation/app/Http/Requests/FormExampleRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -695,13 +670,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/validation/app/Http/Controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/manage-customer/app/Http/Controllers/TaskController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Laravel/manage-customer/app/Http/Controllers/CustomerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        <state relative-caret-position="155">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="25" selection-end-column="11" />
           <folding>
             <element signature="e#40#53#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/task_manager/app/Http/Controllers/TaskController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
         </state>
       </provider>
     </entry>

@@ -21,6 +21,13 @@ class TaskController extends Controller
     }
 
     public function store(Request $request){
+        $validatedData = $request->validate([
+            'title' => 'required|min:3',
+            'content' => 'required|min:3',
+            'due_date' => 'required|date',
+            'image' => 'required|image',
+        ]);
+
         //Khởi tạo mới đối tượng task, gán các trường tương ứng với request gửi lên từ trình duyệt
         $task = new Task();
         $task->title = $request->inputTitle;
