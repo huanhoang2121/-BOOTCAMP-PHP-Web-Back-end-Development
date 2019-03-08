@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1de850a4-4fd1-44ef-8808-e4a11dfd3940" name="Default Changelist" comment="add">
-      <change beforePath="$PROJECT_DIR$/Laravel/validation/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/validation/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laravel/validation/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/validation/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laravel/manage-customer/app/Http/Controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/manage-customer/app/Http/Controllers/CustomerController.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,46 +15,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Laravel/validation/resources/views/welcome.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Laravel/validation/app/Http/Controllers/FormController.php">
+        <entry file="file://$PROJECT_DIR$/Laravel/manage-customer/app/Http/Controllers/CustomerController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+            <state relative-caret-position="614">
+              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
               <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
+                <element signature="e#40#53#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Laravel/validation/app/Http/Requests/FormExampleRequest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Laravel/validation/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -94,7 +61,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Laravel/manage-customer/app/Http/Controllers/TaskController.php" />
-        <option value="$PROJECT_DIR$/Laravel/manage-customer/app/Http/Controllers/CustomerController.php" />
         <option value="$PROJECT_DIR$/Laravel/manage-customer/database/seeds/TaskTableSeeder.php" />
         <option value="$PROJECT_DIR$/Laravel/manage-customer/resources/views/tasks/edit.blade.php" />
         <option value="$PROJECT_DIR$/Laravel/HuanBlog/config/database.php" />
@@ -144,6 +110,7 @@
         <option value="$PROJECT_DIR$/Laravel/validation/app/Http/Requests/FormExampleRequest.php" />
         <option value="$PROJECT_DIR$/Laravel/validation/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/Laravel/validation/app/Http/Controllers/FormController.php" />
+        <option value="$PROJECT_DIR$/Laravel/manage-customer/app/Http/Controllers/CustomerController.php" />
       </list>
     </option>
   </component>
@@ -177,26 +144,6 @@
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="timezone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
-              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="timezone" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
-              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="timezone" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
-              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
               <item name="validation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -213,6 +160,15 @@
               <item name="validation" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="validation" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="-BOOTCAMP-PHP-Web-Back-end-Development" type="b2602c69:ProjectViewProjectNode" />
@@ -329,7 +285,7 @@
       <workItem from="1551834305243" duration="19308000" />
       <workItem from="1551920781114" duration="20992000" />
       <workItem from="1552010822195" duration="382000" />
-      <workItem from="1552011704548" duration="2612000" />
+      <workItem from="1552011704548" duration="2998000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1551148688734</created>
@@ -342,7 +298,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158753000" />
+    <option name="totallyTimeSpent" value="159139000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,13 +345,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Laravel/HuanBlog/app/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Laravel/HuanBlog/app/Post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -544,16 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/manage-customer/app/Http/Controllers/CustomerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="68" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="68" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Laravel/manage-customer/resources/views/customers/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -696,31 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/validation/app/Http/Controllers/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/validation/resources/views/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Laravel/timezone/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/validation/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -736,19 +654,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/validation/app/Http/Requests/FormExampleRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Laravel/validation/app/Http/Controllers/FormController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/validation/resources/views/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/timezone/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/validation/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/validation/app/Http/Controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/validation/app/Http/Requests/FormExampleRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/manage-customer/app/Http/Controllers/CustomerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

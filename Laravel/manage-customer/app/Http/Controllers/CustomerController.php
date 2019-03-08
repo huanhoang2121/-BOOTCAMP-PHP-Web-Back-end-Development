@@ -20,6 +20,10 @@ class CustomerController extends Controller
     }
 
     public function store(Request $request){
+        $validatedData = $request->validate([
+            'name' => 'required|min:2|max:30',
+            'email' => 'required|email',
+        ]);
         $customer = new Customer();
         $customer->name     = $request->input('name');
         $customer->email    = $request->input('email');
@@ -39,6 +43,10 @@ class CustomerController extends Controller
     }
 
     public function update(Request $request, $id){
+        $validatedData = $request->validate([
+            'name' => 'required|min:2|max:30',
+            'email' => 'required|email',
+        ]);
         $customer = Customer::findOrFail($id);
         $customer->name     = $request->input('name');
         $customer->email    = $request->input('email');
