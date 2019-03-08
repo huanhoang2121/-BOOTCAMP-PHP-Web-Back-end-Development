@@ -18,3 +18,6 @@ Route::get('/login', 'LoginController@showLogin')->name('show.login');
 Route::post('/login', 'LoginController@login')->name('user.login');
 Route::get('/blog', 'BlogController@showBlog')->name('show.blog');
 Route::get('/logout', 'LoginController@logout')->name('user.logout');
+
+Route::get('products', 'ProductController@index')->name('index');
+Route::get('products/{id}', 'ProductController@show')->name('show');
