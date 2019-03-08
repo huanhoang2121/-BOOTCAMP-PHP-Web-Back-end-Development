@@ -12,10 +12,5 @@
 */
 
 
-Route::get('/', ['uses' => 'AnhController@index', 'as' => 'welcome']);
-
-Route::get('/upload', function () {
-    return view('upload');
-});
-
-Route::post('/upload', ['uses' => 'AnhController@upload', 'as' => 'upload']);
+Route::get('create', 'PostController@create');
+Route::post('store', 'PostController@store')->name('store');

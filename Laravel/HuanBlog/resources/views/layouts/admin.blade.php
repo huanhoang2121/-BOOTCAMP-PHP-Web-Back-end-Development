@@ -22,6 +22,8 @@
 </div>
 </body>
 <script>
+    $('#content').summernote('fontName', 'Arial');
+
     $(document).ready(function() {
         $('#content').summernote();
     });

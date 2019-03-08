@@ -14,7 +14,7 @@
                     <textarea class="form-control" id="content" name="content"></textarea>
                 </div>
                 <div class="form-group">
-                    <labelv for="category">Category</labelv>
+                    <label for="category">Category</label>
                     <select class="form-control" name="category_id">
                         @foreach($categories as $category)
                             <option value="{{ $category->id }}">{{ $category->name }}</option>
