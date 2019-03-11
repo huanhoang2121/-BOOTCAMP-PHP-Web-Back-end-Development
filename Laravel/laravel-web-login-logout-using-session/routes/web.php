@@ -21,3 +21,8 @@ Route::get('/logout', 'LoginController@logout')->name('user.logout');
 
 Route::get('products', 'ProductController@index')->name('index');
 Route::get('products/{id}', 'ProductController@show')->name('show');
+
+Route::get('cart', 'ProductController@cart')->name('cart');
+Route::get('add-to-cart/{id}', 'ProductController@addToCart');
+Route::get('update-cart/{id}', 'ProductController@update')->name('update-cart');
+Route::get('remove-from-cart/{id}', 'ProductController@remove')->name('remove-from-cart');

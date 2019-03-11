@@ -23,7 +23,7 @@ class LoginController extends Controller
             $request->session()->push('login', true);
 
             // Đi đến route show.blog, để chuyển hướng người dùng đến trang blog
-            return redirect()->route('show.blog');
+            return redirect()->route('index');
         }
 
         // Nếu thông tin đăng nhập không chính xác, gán thông báo vào Session

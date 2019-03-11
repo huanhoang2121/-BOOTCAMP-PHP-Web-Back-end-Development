@@ -18,11 +18,12 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ $product->name }}</h5>
                         <p class="card-text">{{ $product->description }}</p>
-                        <p class="card-text text-dark">${{ $product->price }}</p>
+                        <p class="card-text text-dark">{{ $product->price }} đ</p>
                         <p class="card-text text-danger">Số lượt xem: {{ $product->view_count }}</p>
 
                         <!-- Nút XEM chuyển hướng người dùng quay lại trang danh sách sản phẩm -->
                         <a href="{{ route('index') }}" class="btn btn-primary">< Quay lại </a>
+                        <a href="{{ url('add-to-cart/'.$product->id) }}" class="btn btn-danger"> Mua ngay </a>
                     </div>
                 </div>
             </div>
