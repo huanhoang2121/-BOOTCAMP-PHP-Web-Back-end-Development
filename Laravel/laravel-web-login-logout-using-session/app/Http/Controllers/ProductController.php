@@ -74,10 +74,11 @@ class ProductController extends Controller
 
     public function update(Request $request, $id)
     {
+        echo $request->input('quantity-'.$id).value();
         if ($id) {
             $cart = session()->get('cart');
 
-            $cart[$id]["quantity"] = $request->quantity;
+            $cart[$id]["quantity"] = $request->input('quantity-'.$id).value();
 
             session()->put('cart', $cart);
         }

@@ -8,6 +8,9 @@ Route::get('post/{id}', ['uses' => 'PostController@getPost','as' => 'blog.post']
 Route::get('about', function () {
     return view('other.about');
 })->name('other.about');
+Route::get('contact', function () {
+    return view('other.contact');
+})->name('other.contact');
 
 Route::group(['prefix' => 'admin'], function () {
     //posts manager

@@ -22,7 +22,7 @@
                             <li><a href="{{ route('other.about') }}">Giới thiệu</a></li>
                             <li><a href="#">Du lịch</a></li>
                             <li><a href="#">Thời trang</a></li>
-                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="{{ route('other.contact') }}">Liên hệ</a></li>
                             <li><a href="{{ route('admin.posts.index') }}">Trang quản trị</a></li>
                         </ul>
                     </nav>
